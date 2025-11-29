@@ -138,7 +138,7 @@ npm run deploy
    - Source: **Deploy from a branch**
    - Branch: **gh-pages** / **(root)**
 3. Run `npm run deploy` from your local machine
-4. Your site will be available at `https://ribeirohugo.github.io/ribeirohugo`
+4. Your site will be available at `https://ribeirohugo.github.io`
 
 ## 👤 Author
 
