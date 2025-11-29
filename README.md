@@ -108,6 +108,38 @@ To customize the website with your own information:
 
 This project is open source and available under the MIT License.
 
+## 🚀 Deployment to GitHub Pages
+
+### Option 1: Using GitHub Actions (Recommended)
+
+This repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages on every push to the main branch.
+
+**Setup Instructions:**
+
+1. Go to your repository Settings > Pages
+2. Under "Build and deployment", select:
+   - Source: **GitHub Actions**
+3. Push your changes to the `main` branch
+4. The workflow will automatically build and deploy your site
+5. Your site will be available at `https://ribeirohugo.github.io/ribeirohugo`
+
+### Option 2: Manual Deployment
+
+You can also deploy manually using the gh-pages package:
+
+```bash
+npm run deploy
+```
+
+**Setup for manual deployment:**
+
+1. Go to repository Settings > Pages
+2. Under "Build and deployment", select:
+   - Source: **Deploy from a branch**
+   - Branch: **gh-pages** / **(root)**
+3. Run `npm run deploy` from your local machine
+4. Your site will be available at `https://ribeirohugo.github.io/ribeirohugo`
+
 ## 👤 Author
 
 **Hugo Ribeiro**
